@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form pemesanan baju</title>
+</head>
+<body style="background-color: azure;">
+    <div>
+    <h1 style="background-color: aquamarine;"> <span style="color: darkcyan;">Butik Nufian | Menerima pemesanan pembuatan baju </span></h1>
+    </div>
+    <img style = "border : solid 5px aqua;" src = "baju.jpeg"  alt="gambar baju" width="250">
+    <p>wujudkan baju impianmu bersama Butik Nufian, <br>
+        isi form dibawah ini untu mengisi data yang diperlukan</p>
+
+    <p><h4>Informasi Pribadi:</h4></p><br>
+    <table>
+        <tr>
+            <td>Nama :</td>
+            <td><input type="text" name="costumername"></td>
+        </tr>
+
+        <tr>
+            <td>Alamat :</td>
+            <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td> <input type="email" name="email" id="email"></td>
+        </tr>
+
+        <tr>
+            <td>Nomor Telepon :</td>
+            <td><input type="number" name="telepon"></td>
+        </tr>
+        
+        <tr>
+            <td>Informasi Tambahan:</td>
+            <td> <textarea name="Informasi tambahan" id="informasi tambahan" cols="30" rows="5"></textarea></td>
+        </tr>
+    </table>
+
+    <p>
+        <b>Detail Pesanan Baju</b>
+    </p>
+
+    <label for="model">Model yang diinginkan (pilih salah satu)</label>
+    <input type="radio" name="model" value="kemeja">Kemeja
+    <input type="radio" name="model" value="kaos">Kaos
+    <input type="radio" name="model" value="gamis">gamis
+    <input type="radio" name="model" value="celana">Celana
+    <input type="radio" name="model" value="rok">Rok
+    <br>
+
+    <br>
+
+    <label for="ukuran"> Ukuran (pilih salah satu)</label>
+    <input type="radio" name="ukuran" value="s"> S
+    <input type="radio" name="ukuran" value="m"> M
+    <input type="radio" name="ukuran" value="l"> L
+    <input type="radio" name="ukuran" value="xl"> XL
+    <input type="radio" name="ukuran" value="xxl"> XXL
+    <input type="radio" name="ukuran" value="xxxl"> XXXL
+    <br>
+
+    <br>
+
+    <label for="warna"> Warna yang diinginkan :</label>
+    <input type="color" name="warna" id="warna">
+    <br>
+
+    <br>
+
+    <label for="motif"> Motif yang diinginkan:</label>
+    <input type="checkbox" name="motif[]" value="polos"> Polos
+    <input type="checkbox" name="motif[]" value="batik"> Batik
+    <input type="checkbox" name="motif[]" value="polkadot"> Polkadot
+    <input type="checkbox" name="motif[]" value="kotak-kotak"> kotak-kotak
+    <br>
+    
+    <br>
+
+<table>
+    <tr>
+        <td>
+    <label for="informasi_tambahan"> Informasi Tambahan:</label>
+    <textarea name="informasi" id="informasi" cols="30" rows="5"></textarea></td>
+    </tr>
+</table>
+    <br>
+
+    <br>
+    
+    <tr>
+        <td>
+        <label for="">Banyaknya Pesanan</label></td>
+        <input type="count">
+            
+     </tr>
+     <br>
+
+     <br>
+     
+     <input type="submit" value="Buat Pesanan">
+     <input type="reset">
+
+</body>
+</html>
