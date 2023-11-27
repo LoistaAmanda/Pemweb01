@@ -1,5 +1,6 @@
 body {
-    margin: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
@@ -28,7 +29,7 @@ body {
 }
 
 .header {
-    background-color: yellow;
+    background-color: khaki;
     height: 10vh;
     flex-grow: 1;
     display: flex;
@@ -38,6 +39,10 @@ body {
 
 .article {
     width: 75%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aside {
@@ -50,7 +55,7 @@ body {
 }
 
 .footer {
-    background-color: yellow;
+    background-color: khaki;
     height: 10vh;
     flex-grow: 1;
     display: flex;
